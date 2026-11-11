@@ -1,0 +1,14 @@
+{
+  "name": "qiankun-esm-import-map-race-repro",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Native-browser reproduction of premature ESM import-map publication in qiankun",
+  "scripts": {
+    "repro": "node repro.cjs"
+  },
+  "dependencies": {
+    "@qiankunjs/shared": "0.1.0-rc.14",
+    "@playwright/test": "1.61.1",
+    "esbuild": "0.21.5"
+  }
+}
